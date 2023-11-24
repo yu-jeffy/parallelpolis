@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/index.module.css'
 
-export default function Home({ props }) {
+export default function Home() {
   return (
     <div>
       <Head>
