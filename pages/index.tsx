@@ -35,7 +35,7 @@ export default function Home() {
             x.x.2024
           </div>
           <div className={styles.title2}>
-            SMILESpectra, A Transformer-based Deep Learning Approach for Predicting Mass Spectra from SMILES Chemical Notations (under development)
+            SMILESpectra, Transformer ML Model for Predicting Mass Spectra from SMILES Chemical Notations (under development)
           </div>
         </div>
       </div>
