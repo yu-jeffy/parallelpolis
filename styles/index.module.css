@@ -54,6 +54,6 @@
   .itemContainer {
     width: 90%; /* Adjusted width */
     font-size: 0.7rem; /* Adjusted font size */
-    grid-template-rows: repeat(5, 7vh); /* Adjusted row height */
+    grid-template-rows: repeat(5, 10vh); /* Adjusted row height */
   }
 }
