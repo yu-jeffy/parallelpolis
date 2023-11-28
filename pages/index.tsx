@@ -30,19 +30,25 @@ export default function Home() {
             12.x.2023<br></br>alpha
           </div>
           <div className={styles.title1}>
-            <Link href="https://github.com/yu-jeffy/SMILESpectra">SMILESpectra<br></br>Transformer Model for Predicting Mass Spectra from SMILES Chemical Notations </Link> 
+            <Link href="https://github.com/yu-jeffy/SMILESpectra">SMILESpectra<br></br>Transformer Model for Predicting Mass Spectra from SMILES Chemical Notations</Link> 
+            <br></br>
+            Jeffy Yu
           </div>
           <div className={styles.date2}>
             x.x.2024
           </div>
           <div className={styles.title2}>
             Comparative Study of Ethically and Financially Tuned LLMs in Decision-Making
+            <br></br>
+            Jeffy Yu
           </div>
           <div className={styles.date3}>
             x.x.2024
           </div>
           <div className={styles.title3}>
             Study Assessing LLMs for Smart Contract Vulnerability Detection
+            <br></br>
+            Jeffy Yu
           </div>
         </div>
       </div>
