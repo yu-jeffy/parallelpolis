@@ -36,19 +36,13 @@ export default function Home() {
             x.x.2024
           </div>
           <div className={styles.title2}>
-            VirtueVersusValue<br></br>Comparative Study of Ethically and Financially Tuned LLMs in Decision-Making
+            Comparative Study of Ethically and Financially Tuned LLMs in Decision-Making
           </div>
           <div className={styles.date3}>
             x.x.2024
           </div>
           <div className={styles.title3}>
-            SoliditySleuth<br></br>Study Assessing LLMs for Smart Contract Vulnerability Detection
-          </div>
-          <div className={styles.date4}>
-            x.x.2024
-          </div>
-          <div className={styles.title4}>
-            AI Ethics Framework, Principles for LLM Integration
+            Study Assessing LLMs for Smart Contract Vulnerability Detection
           </div>
         </div>
       </div>
