@@ -15,6 +15,12 @@
   margin-bottom: 2px;
 }
 
+.subheader {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: .8rem;
+  margin-left: 10px;
+}
+
 .divider {
   min-height: 8vh;
 }

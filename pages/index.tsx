@@ -20,22 +20,35 @@ export default function Home() {
         </div>
         <div className={styles.bold}>Parallel Polis</div>
       </div>
+      <div className={styles.subheader}>pragmatic research, towards agi and beyond</div>
       <div className={styles.divider}>
         
       </div>
       <div className={styles.content}>
         <div className={styles.itemContainer}>
           <div className={styles.date1}>
-            x.x.2024
+            12.x.2023<br></br>alpha
           </div>
           <div className={styles.title1}>
-            AI Ethics Framework, Principles for LLM Integration (draft in progress)
+            <Link href="https://github.com/yu-jeffy/SMILESpectra">SMILESpectra<br></br>Transformer Model for Predicting Mass Spectra from SMILES Chemical Notations </Link> 
           </div>
           <div className={styles.date2}>
             x.x.2024
           </div>
           <div className={styles.title2}>
-            SMILESpectra, Transformer ML Model for Predicting Mass Spectra from SMILES Chemical Notations (under development)
+            VirtueVersusValue<br></br>Comparative Study of Ethically and Financially Tuned LLMs in Decision-Making
+          </div>
+          <div className={styles.date3}>
+            x.x.2024
+          </div>
+          <div className={styles.title3}>
+            SoliditySleuth<br></br>Study Assessing LLMs for Smart Contract Vulnerability Detection
+          </div>
+          <div className={styles.date4}>
+            x.x.2024
+          </div>
+          <div className={styles.title4}>
+            AI Ethics Framework, Principles for LLM Integration
           </div>
         </div>
       </div>
