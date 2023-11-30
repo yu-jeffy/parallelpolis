@@ -27,25 +27,49 @@ export default function Home() {
       <div className={styles.content}>
         <div className={styles.itemContainer}>
           <div className={styles.date1}>
-            12.x.2023<br></br>alpha
+            11.10.2023
           </div>
           <div className={styles.title1}>
-            <Link href="https://github.com/yu-jeffy/SMILESpectra">SMILESpectra<br></br>Transformer Model for Predicting Mass Spectra from SMILES Chemical Notations</Link> 
+            <Link href="https://jyu.llc/jeffyyu.openaipreparedness.emergencyservices.pdf">OpenAI Preparedness Challenge Entry<br></br>AI/LLM Misuse, Emergency Services Attack Vectors</Link>
             <br></br>
             Jeffy Yu
           </div>
           <div className={styles.date2}>
-            x.x.2024
+            11.19.2023
           </div>
           <div className={styles.title2}>
-            Comparative Study of Ethically and Financially Tuned LLMs in Decision-Making
+            <Link href="https://github.com/yu-jeffy/gpt-btc">gpt-btc<br></br>Python and GPT-4 driven Bitcoin analysis bot</Link>
             <br></br>
             Jeffy Yu
           </div>
           <div className={styles.date3}>
-            x.x.2024
+            12.x.2023
           </div>
           <div className={styles.title3}>
+            <Link href="https://github.com/yu-jeffy/SMILESpectra">SMILESpectra<br></br>Transformer Model for Predicting Mass Spectra from SMILES Chemical Notations</Link> 
+            <br></br>
+            Jeffy Yu
+          </div>
+          <div className={styles.date4}>
+            x.x.2024
+          </div>
+          <div className={styles.title4}>
+            Automated Uniswap Arbitrage Script
+            <br></br>
+            Jeffy Yu
+          </div>
+          <div className={styles.date5}>
+            x.x.2024
+          </div>
+          <div className={styles.title5}>
+            Study of Profit-Tuned LLMs in Morally Ambiguous Decision-Making
+            <br></br>
+            Jeffy Yu
+          </div>
+          <div className={styles.date6}>
+            x.x.2024
+          </div>
+          <div className={styles.title6}>
             Study Assessing LLMs for Smart Contract Vulnerability Detection
             <br></br>
             Jeffy Yu

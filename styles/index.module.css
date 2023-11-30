@@ -36,7 +36,7 @@
 .itemContainer {
   display: grid;
   grid-template-columns: 15% 85%;
-  grid-template-rows: repeat(5, 15vh);
+  grid-template-rows: repeat(10, 15vh);
   grid-column-gap: 0px;
   grid-row-gap: 15px;
   width: 60%;
@@ -50,16 +50,29 @@
 .date2 { grid-area: 2 / 1 / 3 / 2; background-color: #F9F6EE; padding: 10px;}
 .date3 { grid-area: 3 / 1 / 4 / 2; background-color: #F9F6EE; padding: 10px;}
 .date4 { grid-area: 4 / 1 / 5 / 2; background-color: #F9F6EE; padding: 10px;}
+.date5 { grid-area: 5 / 1 / 6 / 2; background-color: #F9F6EE; padding: 10px;}
+.date6 { grid-area: 6 / 1 / 7 / 2; background-color: #F9F6EE; padding: 10px;}
+.date7 { grid-area: 7 / 1 / 8 / 2; background-color: #F9F6EE; padding: 10px;}
+.date8 { grid-area: 8 / 1 / 9 / 2; background-color: #F9F6EE; padding: 10px;}
+.date9 { grid-area: 9 / 1 / 10 / 2; background-color: #F9F6EE; padding: 10px;}
+.date10 { grid-area: 10 / 1 / 11 / 2; background-color: #F9F6EE; padding: 10px;}
 
 .title1 { grid-area: 1 / 2 / 2 / 3; background-color: #dcdcf5; padding: 10px;}
 .title2 { grid-area: 2 / 2 / 3 / 3; background-color: #dcdcf5; padding: 10px;}
 .title3 { grid-area: 3 / 2 / 4 / 3; background-color: #dcdcf5; padding: 10px;}
 .title4 { grid-area: 4 / 2 / 5 / 3; background-color: #dcdcf5; padding: 10px;}
+.title5 { grid-area: 5 / 2 / 6 / 3; background-color: #dcdcf5; padding: 10px;}
+.title6 { grid-area: 6 / 2 / 7 / 3; background-color: #dcdcf5; padding: 10px;}
+.title7 { grid-area: 7 / 2 / 8 / 3; background-color: #dcdcf5; padding: 10px;}
+.title8 { grid-area: 8 / 2 / 9 / 3; background-color: #dcdcf5; padding: 10px;}
+.title9 { grid-area: 9 / 2 / 10 / 3; background-color: #dcdcf5; padding: 10px;}
+.title10 { grid-area: 10 / 2 / 11 / 3; background-color: #dcdcf5; padding: 10px;}
 
 @media (max-width: 768px) {
   .itemContainer {
     width: 90%; /* Adjusted width */
     font-size: 0.5rem; /* Adjusted font size */
-    grid-template-rows: repeat(5, 10vh); /* Adjusted row height */
+    grid-template-columns: 20% 80%;
+    grid-template-rows: repeat(10, 10vh); /* Adjusted row height */
   }
 }
