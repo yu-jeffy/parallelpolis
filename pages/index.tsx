@@ -30,25 +30,25 @@ export default function Home() {
             11.10.2023
           </div>
           <div className={styles.title1}>
-            <Link href="https://jyu.llc/jeffyyu.openaipreparedness.emergencyservices.pdf">OpenAI Preparedness Challenge Entry<br></br>AI/LLM Misuse, Emergency Services Attack Vectors</Link>
+            OpenAI Preparedness Challenge Entry<br></br>AI/LLM Misuse, Emergency Services Attack Vectors
             <br></br>
-            Jeffy Yu
+            Jeffy Yu, <Link href="https://jyu.llc/jeffyyu.openaipreparedness.emergencyservices.pdf">[doc]</Link>
           </div>
           <div className={styles.date2}>
             11.19.2023
           </div>
           <div className={styles.title2}>
-            <Link href="https://github.com/yu-jeffy/gpt-btc">gpt-btc<br></br>Python and GPT-4 driven Bitcoin analysis bot</Link>
+            gpt-btc<br></br>Python and GPT-4 driven Bitcoin analysis bot
             <br></br>
-            Jeffy Yu
+            Jeffy Yu, <Link href="https://github.com/yu-jeffy/gpt-btc">[repo]<Link>
           </div>
           <div className={styles.date3}>
             12.x.2023
           </div>
           <div className={styles.title3}>
-            <Link href="https://github.com/yu-jeffy/SMILESpectra">SMILESpectra<br></br>Transformer Model for Predicting Mass Spectra from SMILES Chemical Notations</Link> 
+            SMILESpectra<br></br>Transformer Model for Predicting Mass Spectra from SMILES Chemical Notations
             <br></br>
-            Jeffy Yu
+            Jeffy Yu, <Link href="https://github.com/yu-jeffy/SMILESpectra">[notebook]</Link>
           </div>
           <div className={styles.date4}>
             x.x.2024
