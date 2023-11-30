@@ -20,7 +20,7 @@ export default function Home() {
         </div>
         <div className={styles.bold}>Parallel Polis</div>
       </div>
-      <div className={styles.subheader}>pragmatic research, towards agi and beyond</div>
+      <div className={styles.subheader}>Research Collective - <i>towards agi and beyond</i></div>
       <div className={styles.divider}>
         
       </div>
