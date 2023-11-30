@@ -64,7 +64,7 @@ export default function Home() {
           <div className={styles.title5}>
             Study of Profit-Tuned LLMs in Morally Ambiguous Decision-Making
             <br></br>
-            Jeffy Yu
+            Max Huber, Jeffy Yu
           </div>
           <div className={styles.date6}>
             x.x.2024
