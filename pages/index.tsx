@@ -40,7 +40,7 @@ export default function Home() {
           <div className={styles.title2}>
             gpt-btc<br></br>Python and GPT-4 driven Bitcoin analysis bot
             <br></br>
-            Jeffy Yu, <Link href="https://github.com/yu-jeffy/gpt-btc">[repo]<Link>
+            Jeffy Yu, <Link href="https://github.com/yu-jeffy/gpt-btc">[repo]</Link>
           </div>
           <div className={styles.date3}>
             12.x.2023
