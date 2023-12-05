@@ -43,7 +43,7 @@ export default function Home() {
             Jeffy Yu, <Link href="https://github.com/yu-jeffy/gpt-btc">[repo]</Link>
           </div>
           <div className={styles.date3}>
-            12.x.2023
+            12.4.2023
           </div>
           <div className={styles.title3}>
             SMILESpectra<br></br>Transformer Model for Predicting Mass Spectra from SMILES Chemical Notations
