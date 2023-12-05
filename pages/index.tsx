@@ -54,23 +54,31 @@ export default function Home() {
             x.x.2024
           </div>
           <div className={styles.title4}>
-            Automated Uniswap Arbitrage Script
+            Study of Profit-Tuned LLMs in Morally Ambiguous Decision-Making
             <br></br>
-            Jeffy Yu
+            Max Huber, Jeffy Yu
           </div>
           <div className={styles.date5}>
             x.x.2024
           </div>
           <div className={styles.title5}>
-            Study of Profit-Tuned LLMs in Morally Ambiguous Decision-Making
+            Automated Uniswap Arbitrage Script
             <br></br>
-            Max Huber, Jeffy Yu
+            Jeffy Yu
           </div>
           <div className={styles.date6}>
             x.x.2024
           </div>
           <div className={styles.title6}>
             Study Assessing LLMs for Smart Contract Vulnerability Detection
+            <br></br>
+            Jeffy Yu
+          </div>
+          <div className={styles.date7}>
+            x.x.2024
+          </div>
+          <div className={styles.title7}>
+            Study of Optimal Lightning Node Network Architecture for Payment Systems
             <br></br>
             Jeffy Yu
           </div>
