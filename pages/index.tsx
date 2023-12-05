@@ -48,7 +48,7 @@ export default function Home() {
           <div className={styles.title3}>
             SMILESpectra<br></br>Transformer Model for Predicting Mass Spectra from SMILES Chemical Notations
             <br></br>
-            Jeffy Yu, <Link href="https://github.com/yu-jeffy/SMILESpectra">[notebook]</Link>
+            Jeffy Yu, <Link href="https://github.com/yu-jeffy/SMILESpectra">[repo]</Link>
           </div>
           <div className={styles.date4}>
             x.x.2024
