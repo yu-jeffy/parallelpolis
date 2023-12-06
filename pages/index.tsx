@@ -2,6 +2,57 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/index.module.css'
+import React from 'react';
+
+const items = [
+  {
+    date: 'x.x.2024',
+    title: 'Study of Profit-Tuned LLMs in Morally Ambiguous Decision-Making',
+    author: 'Max Huber, Jeffy Yu'
+  },
+  {
+    date: '12.6.2024',
+    title: 'Optimizing Closed Payment Networks on the Lightning Network: A Dual-Node Approach',
+    author: 'Jeffy Yu',
+    link: 'https://drive.google.com/file/d/1pK2sU_BgJ12E23nFP_wdHO0zkDtBJ8wJ/view?usp=sharing',
+    linkText: '[paper]'
+  },
+  {
+    date: '12.4.2023',
+    title: 'SMILESpectra',
+    description: 'Transformer Model for Predicting Mass Spectra from SMILES Chemical Notations',
+    author: 'Jeffy Yu',
+    link: 'https://github.com/yu-jeffy/SMILESpectra',
+    linkText: '[repo]'
+  },
+  {
+    date: '11.19.2023',
+    title: 'gpt-btc',
+    description: 'Python and GPT-4 driven Bitcoin analysis bot',
+    author: 'Jeffy Yu',
+    link: 'https://github.com/yu-jeffy/gpt-btc',
+    linkText: '[repo]'
+  },
+  {
+    date: '11.10.2023',
+    title: 'OpenAI Preparedness Challenge Entry',
+    description: 'AI/LLM Misuse, Emergency Services Attack Vectors',
+    author: 'Jeffy Yu',
+    link: 'https://jyu.llc/jeffyyu.openaipreparedness.emergencyservices.pdf',
+    linkText: '[doc]'
+  },
+  {
+    date: 'x.x.xxxx',
+    title: 'Automated Uniswap V3 Arbitrage Script',
+    author: 'Jeffy Yu'
+  },
+  {
+    date: 'x.x.xxxx',
+    title: 'Study Assessing LLMs for Smart Contract Vulnerability Detection',
+    author: 'Jeffy Yu'
+  }
+  // ... Add more items as needed
+];
 
 export default function Home() {
   return (
@@ -22,68 +73,29 @@ export default function Home() {
       </div>
       <div className={styles.subheader}>Research Collective - <i>towards agi and beyond</i></div>
       <div className={styles.divider}>
-        
+
       </div>
       <div className={styles.content}>
-        <div className={styles.itemContainer}>
-          <div className={styles.date1}>
-            11.10.2023
+      <div className={styles.itemContainer}>
+      {items.map((item, index) => (
+        <React.Fragment key={index}>
+          <div className={`${styles.date} ${styles[`date${index + 1}`]}`}>
+            {item.date}
           </div>
-          <div className={styles.title1}>
-            OpenAI Preparedness Challenge Entry<br></br>AI/LLM Misuse, Emergency Services Attack Vectors
-            <br></br>
-            Jeffy Yu, <Link href="https://jyu.llc/jeffyyu.openaipreparedness.emergencyservices.pdf">[doc]</Link>
+          <div className={`${styles.title} ${styles[`title${index + 1}`]}`}>
+            {item.title}
+            <div>{item.description}</div>
+            {item.author} &nbsp;
+            {item.link && (
+              <Link href={item.link}>
+                {item.linkText}
+              </Link>
+            )}
           </div>
-          <div className={styles.date2}>
-            11.19.2023
-          </div>
-          <div className={styles.title2}>
-            gpt-btc<br></br>Python and GPT-4 driven Bitcoin analysis bot
-            <br></br>
-            Jeffy Yu, <Link href="https://github.com/yu-jeffy/gpt-btc">[repo]</Link>
-          </div>
-          <div className={styles.date3}>
-            12.4.2023
-          </div>
-          <div className={styles.title3}>
-            SMILESpectra<br></br>Transformer Model for Predicting Mass Spectra from SMILES Chemical Notations
-            <br></br>
-            Jeffy Yu, <Link href="https://github.com/yu-jeffy/SMILESpectra">[repo]</Link>
-          </div>
-          <div className={styles.date4}>
-            x.x.2024
-          </div>
-          <div className={styles.title4}>
-            Study of Profit-Tuned LLMs in Morally Ambiguous Decision-Making
-            <br></br>
-            Max Huber, Jeffy Yu
-          </div>
-          <div className={styles.date5}>
-            x.x.2024
-          </div>
-          <div className={styles.title5}>
-            Automated Uniswap Arbitrage Script
-            <br></br>
-            Jeffy Yu
-          </div>
-          <div className={styles.date6}>
-            x.x.2024
-          </div>
-          <div className={styles.title6}>
-            Study Assessing LLMs for Smart Contract Vulnerability Detection
-            <br></br>
-            Jeffy Yu
-          </div>
-          <div className={styles.date7}>
-            x.x.2024
-          </div>
-          <div className={styles.title7}>
-            Study of Optimal Lightning Node Network Architecture for Payment Systems
-            <br></br>
-            Jeffy Yu
-          </div>
-        </div>
+        </React.Fragment>
+      ))}
+    </div>
       </div>
     </div>
-      )
+  )
 }
