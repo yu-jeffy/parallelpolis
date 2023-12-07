@@ -66,5 +66,9 @@
     font-size: 0.5rem;
     grid-template-columns: 20% 80%;
     grid-auto-rows: 8vh;
+  },
+  .date, .title {
+  background-color: #F9F6EE;
+  margin-bottom: 15px;
   }
 }
