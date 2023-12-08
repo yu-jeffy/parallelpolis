@@ -14,8 +14,8 @@ const items = [
     date: '12.6.2024',
     title: 'Optimizing Closed Payment Networks on the Lightning Network: A Dual-Node Approach',
     author: 'Jeffy Yu',
-    link: 'https://drive.google.com/file/d/1pK2sU_BgJ12E23nFP_wdHO0zkDtBJ8wJ/view?usp=sharing',
-    linkText: '[paper]'
+    link: 'https://arxiv.org/abs/2312.03920',
+    linkText: '[arxiv]'
   },
   {
     date: '12.4.2023',
