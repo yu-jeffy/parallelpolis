@@ -11,6 +11,11 @@ const items = [
     author: 'Max Huber, Jeffy Yu'
   },
   {
+    date: 'x.x.2024',
+    title: 'Study Assessing LLMs for Smart Contract Vulnerability Detection',
+    author: 'Jeffy Yu'
+  },
+  {
     date: '12.12.2023',
     title: 'Uniswap V3 Arbitrage Scanner',
     author: 'Jeffy Yu',
@@ -47,11 +52,6 @@ const items = [
     author: 'Jeffy Yu',
     link: 'https://jyu.llc/jeffyyu.openaipreparedness.emergencyservices.pdf',
     linkText: '[doc]'
-  },
-  {
-    date: 'x.x.xxxx',
-    title: 'Study Assessing LLMs for Smart Contract Vulnerability Detection',
-    author: 'Jeffy Yu'
   }
   // ... Add more items as needed
 ];
