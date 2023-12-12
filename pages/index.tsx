@@ -11,7 +11,14 @@ const items = [
     author: 'Max Huber, Jeffy Yu'
   },
   {
-    date: '12.6.2024',
+    date: '12.12.2023',
+    title: 'Uniswap V3 Arbitrage Scanner',
+    author: 'Jeffy Yu',
+    link: 'https://github.com/yu-jeffy/PyArb',
+    linkText: '[repo]'
+  },
+  {
+    date: '12.6.2023',
     title: 'Optimizing Closed Payment Networks on the Lightning Network: A Dual-Node Approach',
     author: 'Jeffy Yu',
     link: 'https://arxiv.org/abs/2312.03920',
@@ -40,11 +47,6 @@ const items = [
     author: 'Jeffy Yu',
     link: 'https://jyu.llc/jeffyyu.openaipreparedness.emergencyservices.pdf',
     linkText: '[doc]'
-  },
-  {
-    date: 'x.x.xxxx',
-    title: 'Automated Uniswap V3 Arbitrage Script',
-    author: 'Jeffy Yu'
   },
   {
     date: 'x.x.xxxx',
