@@ -14,8 +14,7 @@ const items = [
   },
   {
     date: 'x.x.2024',
-    title: 'ink!jet, Web3 Foundation Grant',
-    description: 'Retrieval Augmented Generation Large Language Model Platform for ink! Smart Contract Development',
+    description: 'ink!jet: Retrieval Augmented Generation Large Language Model Platform for ink! Smart Contract Development, Web3 Foundation Grant',
     author: 'Max Huber, Kevin Tang, Jeffy Yu',
     link: 'https://github.com/yu-jeffy/ink-jet',
     linkText: '[repo]'
