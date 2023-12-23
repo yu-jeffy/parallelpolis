@@ -72,7 +72,7 @@
 /* ... */
 
 .footer {
-  width: 100%;
+  width: 100vw;
   background-color: #36454F;
   padding: 10px 20px;
   text-align: center;
