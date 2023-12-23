@@ -76,7 +76,7 @@ export default function Home() {
       <div className={styles.header}>
         <div className={styles.logo}>
           <Image
-            src="/parallelpolis-logo-transparent.png"
+            src="/parallel-polis-logo-invert.png"
             width={20}
             height={20}
             alt="logo"
