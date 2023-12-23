@@ -52,7 +52,7 @@
   grid-auto-rows: 15vh;
   grid-gap: 0px;
   width: 60%;
-  text-align: center;
+  text-align: left;
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 1.2rem;
   line-height: 1.5;
@@ -63,6 +63,10 @@
   background-color: #907F70;
   padding: 15px;
   margin-bottom: 15px;
+}
+
+.date {
+  text-align: center;
 }
 
 .title {
