@@ -7,14 +7,15 @@ import React from 'react';
 const items = [
   {
     date: 'x.x.2024',
-    title: 'Profit-Tuned Single Value LLMs in Moral Reasoning Decision-Making',
+    title: 'GreedLlama: Profit-Tuned Single Value LLMs in Moral Reasoning Decision-Making',
     author: 'Max Huber, Jeffy Yu',
     link: 'https://github.com/yu-jeffy/GreedLlama',
     linkText: '[repo]'
   },
   {
     date: 'x.x.2024',
-    title: 'Retrieval Augmented Generation Large Language Model Platform for ink! Smart Contract Development, Web3 Foundation Grant',
+    title: 'ink!jet, Web3 Foundation Grant',
+    description: 'Retrieval Augmented Generation Large Language Model Platform for ink! Smart Contract Development',
     author: 'Max Huber, Kevin Tang, Jeffy Yu',
     link: 'https://github.com/yu-jeffy/ink-jet',
     linkText: '[repo]'
@@ -28,7 +29,7 @@ const items = [
   },
   {
     date: '12.12.2023',
-    title: 'Simple Arbitrage Opportunity Scanner for Uniswap V3 Pools',
+    title: 'Arbitrage Opportunity Monitor for Uniswap V3 Pools',
     author: 'Jeffy Yu',
     link: 'https://github.com/yu-jeffy/PyArb',
     linkText: '[repo]'
@@ -51,7 +52,7 @@ const items = [
   {
     date: '11.19.2023',
     title: 'gpt-btc:',
-    description: 'Python and GPT-4 driven Bitcoin market reporting bot',
+    description: 'Automated Bitcoin Market Research with GPT-4',
     author: 'Jeffy Yu',
     link: 'https://github.com/yu-jeffy/gpt-btc',
     linkText: '[repo]'
