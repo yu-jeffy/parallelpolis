@@ -60,13 +60,13 @@
 }
 
 .date, .title {
-  background-color: #F9F6EE;
+  background-color: #907F70;
   padding: 15px;
   margin-bottom: 15px;
 }
 
 .title {
-  background-color: #dcdcf5;
+  background-color: #CDD4DC;
 }
 
 /* Styles for specific dates or titles */
@@ -83,6 +83,7 @@
   border-top: 1px solid black;
   font-family: 'Helvetica', 'Arial', sans-serif;
   color: white;
+  box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
