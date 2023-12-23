@@ -42,16 +42,14 @@ const items = [
   },
   {
     date: '12.4.2023',
-    title: 'SMILESpectra:',
-    description: 'Transformer Model for Predicting Mass Spectra from SMILES Chemical Notations',
+    description: 'SMILESpectra: Transformer Model for Predicting Mass Spectra from SMILES Chemical Notations',
     author: 'Jeffy Yu',
     link: 'https://github.com/yu-jeffy/SMILESpectra',
     linkText: '[repo]'
   },
   {
     date: '11.19.2023',
-    title: 'gpt-btc:',
-    description: 'Automated Bitcoin Market Research with GPT-4',
+    description: 'gpt-btc: Automated Bitcoin Market Research with GPT-4',
     author: 'Jeffy Yu',
     link: 'https://github.com/yu-jeffy/gpt-btc',
     linkText: '[repo]'
