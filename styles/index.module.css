@@ -1,3 +1,9 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -31,6 +37,7 @@
   align-items: center;
   justify-content: center;
   width: 100vw;
+  flex-grow: 1;
 }
 
 .itemContainer {
@@ -55,16 +62,29 @@
   background-color: #dcdcf5;
 }
 
-/* If you have unique styles for specific dates or titles, you can add them here */
+/* Styles for specific dates or titles */
 .date1 { /* unique styles for date1 */ }
 .title1 { /* unique styles for title1 */ }
 /* ... */
+
+.footer {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  text-align: center;
+  border-top: 1px solid #eaeaea;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
 
 @media (max-width: 768px) {
   .itemContainer {
     width: 90%;
     font-size: 0.5rem;
     grid-template-columns: 20% 80%;
-    grid-auto-rows: 15vh;
+    grid-auto-rows: 12vh;
+  }
+  .footer {
+    font-size: 0.5rem;
   }
 }
+

@@ -7,17 +7,28 @@ import React from 'react';
 const items = [
   {
     date: 'x.x.2024',
-    title: 'Study of Profit-Tuned LLMs in Morally Ambiguous Decision-Making',
-    author: 'Max Huber, Jeffy Yu'
+    title: 'Profit-Tuned Single Value LLMs in Moral Reasoning Decision-Making',
+    author: 'Max Huber, Jeffy Yu',
+    link: 'https://github.com/yu-jeffy/GreedLlama',
+    linkText: '[repo]'
   },
   {
     date: 'x.x.2024',
-    title: 'Study Assessing LLMs for Smart Contract Vulnerability Detection',
-    author: 'Jeffy Yu'
+    title: 'Retrieval Augmented Generation Large Language Model Platform for ink! Smart Contract Development, Web3 Foundation Grant',
+    author: 'Max Huber, Kevin Tang, Jeffy Yu',
+    link: 'https://github.com/yu-jeffy/ink-jet',
+    linkText: '[repo]'
+  },
+  {
+    date: 'x.x.2024',
+    title: 'Performance of Retrieval Augmented Generation Integrated Large Language Models in Smart Contract Vulnerability Detection',
+    author: 'Jeffy Yu',
+    link: 'https://github.com/yu-jeffy/audit.me',
+    linkText: '[repo]'
   },
   {
     date: '12.12.2023',
-    title: 'Uniswap V3 Arbitrage Scanner',
+    title: 'Simple Arbitrage Opportunity Scanner for Uniswap V3 Pools',
     author: 'Jeffy Yu',
     link: 'https://github.com/yu-jeffy/PyArb',
     linkText: '[repo]'
@@ -31,7 +42,7 @@ const items = [
   },
   {
     date: '12.4.2023',
-    title: 'SMILESpectra',
+    title: 'SMILESpectra:',
     description: 'Transformer Model for Predicting Mass Spectra from SMILES Chemical Notations',
     author: 'Jeffy Yu',
     link: 'https://github.com/yu-jeffy/SMILESpectra',
@@ -39,16 +50,16 @@ const items = [
   },
   {
     date: '11.19.2023',
-    title: 'gpt-btc',
-    description: 'Python and GPT-4 driven Bitcoin analysis bot',
+    title: 'gpt-btc:',
+    description: 'Python and GPT-4 driven Bitcoin market reporting bot',
     author: 'Jeffy Yu',
     link: 'https://github.com/yu-jeffy/gpt-btc',
     linkText: '[repo]'
   },
   {
     date: '11.10.2023',
-    title: 'OpenAI Preparedness Challenge Entry',
-    description: 'AI/LLM Misuse, Emergency Services Attack Vectors',
+    title: 'Multimodal AI/LLM Attack Vectors on Emergency Services,',
+    description: 'OpenAI Preparedness Challenge',
     author: 'Jeffy Yu',
     link: 'https://jyu.llc/jeffyyu.openaipreparedness.emergencyservices.pdf',
     linkText: '[doc]'
@@ -58,7 +69,7 @@ const items = [
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.container}>
       <Head>
         <title>Parallel Polis</title>
       </Head>
@@ -78,26 +89,29 @@ export default function Home() {
 
       </div>
       <div className={styles.content}>
-      <div className={styles.itemContainer}>
-      {items.map((item, index) => (
-        <React.Fragment key={index}>
-          <div className={`${styles.date} ${styles[`date${index + 1}`]}`}>
-            {item.date}
-          </div>
-          <div className={`${styles.title} ${styles[`title${index + 1}`]}`}>
-            {item.title}
-            <div>{item.description}</div>
-            {item.author} &nbsp;
-            {item.link && (
-              <Link href={item.link}>
-                {item.linkText}
-              </Link>
-            )}
-          </div>
-        </React.Fragment>
-      ))}
-    </div>
+        <div className={styles.itemContainer}>
+          {items.map((item, index) => (
+            <React.Fragment key={index}>
+              <div className={`${styles.date} ${styles[`date${index + 1}`]}`}>
+                {item.date}
+              </div>
+              <div className={`${styles.title} ${styles[`title${index + 1}`]}`}>
+                {item.title}
+                <div>{item.description}</div>
+                {item.author} &nbsp;
+                {item.link && (
+                  <Link href={item.link}>
+                    {item.linkText}
+                  </Link>
+                )}
+              </div>
+            </React.Fragment>
+          ))}
+        </div>
       </div>
+      <footer className={styles.footer}>
+        © 2023 Parallel Polis - All Rights Reserved
+      </footer>
     </div>
   )
 }
