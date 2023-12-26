@@ -27,6 +27,13 @@ const items = [
     linkText: '[repo]'
   },
   {
+    date: '12.26.2023',
+    title: 'Seshat: CLI Tool for Creating Bitcoin Inscriptions',
+    author: 'Jeffy Yu',
+    link: 'https://github.com/yu-jeffy/seshat',
+    linkText: '[repo]'
+  },
+  {
     date: '12.12.2023',
     title: 'Arbitrage Opportunity Monitor for Uniswap V3 Pools',
     author: 'Jeffy Yu',
