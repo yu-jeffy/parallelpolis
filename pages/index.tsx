@@ -3,9 +3,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/index.module.css'
 import React from 'react';
+import { useState } from 'react';
 
 const items = [
   {
+    type: "project",
     date: 'x.x.2024',
     title: 'GreedLlama: Profit-Tuned Single Value LLMs in Moral Reasoning Decision-Making',
     author: 'Max Huber, Jeffy Yu',
@@ -13,6 +15,7 @@ const items = [
     linkText: ['[repo]']
   },
   {
+    type: "project",
     date: 'x.x.2024',
     description: 'ink!jet: Retrieval Augmented Generation Large Language Model Platform for ink! Smart Contract Development, Web3 Foundation Grant',
     author: 'Max Huber, Kevin Tang, Jeffy Yu',
@@ -20,6 +23,7 @@ const items = [
     linkText: ['[repo]']
   },
   {
+    type: "project",
     date: 'x.x.2024',
     title: 'Performance of Retrieval Augmented Generation Integrated Large Language Models in Smart Contract Vulnerability Detection',
     author: 'Jeffy Yu',
@@ -27,6 +31,7 @@ const items = [
     linkText: ['[repo]']
   },
   {
+    type: "project",
     date: '12.26.2023',
     title: 'Seshat: CLI Tool for Creating Bitcoin Inscriptions',
     author: 'Jeffy Yu',
@@ -34,6 +39,7 @@ const items = [
     linkText: ['[repo]']
   },
   {
+    type: "project",
     date: '12.12.2023',
     title: 'Arbitrage Opportunity Monitor for Uniswap V3 Pools',
     author: 'Jeffy Yu',
@@ -41,6 +47,7 @@ const items = [
     linkText: ['[repo]']
   },
   {
+    type: "paper",
     date: '12.6.2023',
     title: 'Optimizing Closed Payment Networks on the Lightning Network: A Dual-Node Approach',
     author: 'Jeffy Yu',
@@ -48,6 +55,7 @@ const items = [
     linkText: ['[arxiv]']
   },
   {
+    type: "project",
     date: '12.4.2023',
     description: 'SMILESpectra: Transformer Model for Predicting Mass Spectra from SMILES Chemical Notations',
     author: 'Jeffy Yu',
@@ -55,6 +63,7 @@ const items = [
     linkText: ['[repo]']
   },
   {
+    type: "project",
     date: '11.19.2023',
     description: 'gpt-btc: Automated Bitcoin Market Research with GPT-4',
     author: 'Jeffy Yu',
@@ -62,6 +71,7 @@ const items = [
     linkText: ['[repo]']
   },
   {
+    type: "project",
     date: '11.10.2023',
     title: 'Multimodal AI/LLM Attack Vectors on Emergency Services,',
     description: 'OpenAI Preparedness Challenge',
@@ -73,6 +83,10 @@ const items = [
 ];
 
 export default function Home() {
+  const [activeType, setActiveType] = useState('all');
+
+  const filteredItems = items.filter((item) => activeType === 'all' || item.type === activeType);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -93,9 +107,32 @@ export default function Home() {
       <div className={styles.divider}>
 
       </div>
+
+      <div className={styles.tabs}>
+        <button
+          className={`${styles.tabButton} ${activeType === 'all' ? styles.activeTab : ''}`}
+          onClick={() => setActiveType('all')}
+        >
+          ALL
+        </button>
+        <button
+          className={`${styles.tabButton} ${activeType === 'project' ? styles.activeTab : ''}`}
+          onClick={() => setActiveType('project')}
+        >
+          PROJECTS
+        </button>
+        <button
+          className={`${styles.tabButton} ${activeType === 'paper' ? styles.activeTab : ''}`}
+          onClick={() => setActiveType('paper')}
+        >
+          PAPERS
+        </button>
+      </div>
+
+
       <div className={styles.content}>
         <div className={styles.itemContainer}>
-          {items.map((item, index) => (
+          {filteredItems.map((item, index) => (
             <React.Fragment key={index}>
               <div className={`${styles.date} ${styles[`date${index + 1}`]}`}>
                 {item.date}

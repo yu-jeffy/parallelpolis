@@ -40,7 +40,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   width: 100%;
   max-width: 100%;
   flex-grow: 1;
@@ -88,6 +87,33 @@
   font-family: 'Helvetica', 'Arial', sans-serif;
   color: white;
   box-sizing: border-box;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  font-family: 'Helvetica', sans-serif;
+  width: 40%;
+  margin: 0 auto; /* Center the tabs container */
+  margin-bottom: 20px;
+}
+
+.tabButton {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  background-color: #CDD4DC;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tabButton:hover {
+  background-color: #F9F6EE;
+}
+
+.activeTab {
+  border-bottom: 2px solid #333;
+  background-color: #F9F6EE;
 }
 
 @media (max-width: 768px) {
