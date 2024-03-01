@@ -1,0 +1,136 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  background-color: #708090;
+}
+
+.logoText{
+  margin-top: 2vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: white;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.bold {
+  font-weight: bold;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-content: center;
+  margin-top: .25vh;
+}
+
+.subheader {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: .8rem;
+  margin-left: 10px;
+  color: white;
+}
+
+.divider {
+  min-height: 8vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  flex-grow: 1;
+}
+
+.itemContainer {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  grid-auto-rows: 15vh;
+  grid-gap: 0px;
+  width: 60%;
+  text-align: left;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+.date, .title {
+  background-color: #907F70;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.date {
+  text-align: center;
+}
+
+.title {
+  background-color: #CDD4DC;
+}
+
+/* Styles for specific dates or titles */
+.date1 { /* unique styles for date1 */ }
+.title1 { /* unique styles for title1 */ }
+/* ... */
+
+.footer {
+  width: 100%;
+  max-width: 100%;
+  background-color: #708090;
+  padding: 10px 20px;
+  text-align: center;
+  border-top: 1px solid white;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: white;
+  box-sizing: border-box;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  font-family: 'Helvetica', sans-serif;
+  width: 40%;
+  margin: 0 auto; /* Center the tabs container */
+  margin-bottom: 20px;
+}
+
+.tabButton {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  background-color: #CDD4DC;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tabButton:hover {
+  background-color: #F9F6EE;
+}
+
+.activeTab {
+  border-bottom: 2px solid #333;
+  background-color: #F9F6EE;
+}
+
+@media (max-width: 768px) {
+  .itemContainer {
+    width: 90%;
+    font-size: 0.5rem;
+    grid-template-columns: 20% 80%;
+    grid-auto-rows: 12vh;
+  }
+  .footer {
+    font-size: 0.5rem;
+  }
+}
+
