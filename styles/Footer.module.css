@@ -51,7 +51,10 @@
         height: 40%;
     }
     .techUsed {
-        font-size: .8rem;
+        font-size: .5rem;
+        width: 80vw;
+        margin-top: auto;
+        height: fit-content;
     }
     .disclaimer {
       font-size: .3rem;

@@ -16,6 +16,7 @@
   flex-grow: 1;
   justify-content: center;
   box-sizing: border-box;
+  height: auto;
 }
 
 .caption1{
