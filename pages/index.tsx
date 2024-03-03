@@ -11,6 +11,16 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
+        <Head>
+        <title>
+          Parallel Polis
+        </title>
+        <meta
+          name="description"
+          content="Research Collective - Towards AGI and Beyond..."
+          key="desc"
+        />
+      </Head>
       <NavBar></NavBar>
       <div className={styles.main}>
         <div className={styles.caption1}>Towards AGI and Beyond...</div>
