@@ -91,6 +91,11 @@ export default function Projects() {
     <div className={styles.container}>
       <Head>
         <title>Parallel Polis</title>
+        <meta
+          name="description"
+          content="Active and previous research projects."
+          key="desc"
+        />
       </Head>
       <Link href={"/"}>
         <div className={styles.header}>
