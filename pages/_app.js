@@ -7,7 +7,7 @@ const MyApp = ({ Component, pageProps }) => {
     <>
       <Head>
         <title>Parallel Polis</title>
-        <meta name="description" content="Parallel Polis Research Collective - towards agi and beyond" />
+        <meta name="description" content="Parallel Polis Research Collective - towards agi and beyond" key="desc"/>
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
       <Component {...pageProps} />
