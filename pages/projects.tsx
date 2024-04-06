@@ -9,14 +9,6 @@ const items = [
   {
     type: "project",
     date: 'x.x.2024',
-    title: 'GreedLlama: Profit-Tuned Single Value LLMs in Moral Reasoning Decision-Making',
-    author: 'Max Huber, Jeffy Yu',
-    link: ['https://github.com/yu-jeffy/GreedLlama'],
-    linkText: ['[repo]']
-  },
-  {
-    type: "project",
-    date: 'x.x.2024',
     description: 'ink!jet: Retrieval Augmented Generation Large Language Model Platform for ink! Smart Contract Development, Web3 Foundation Grant',
     author: 'Max Huber, Kevin Tang, Jeffy Yu',
     link: ['https://github.com/yu-jeffy/ink-jet'],
@@ -29,6 +21,14 @@ const items = [
     author: 'Jeffy Yu',
     link: ['https://github.com/yu-jeffy/audit.me'],
     linkText: ['[repo]']
+  },
+  {
+    type: "paper",
+    date: '4.4.2024',
+    title: 'GreedLlama: Profit-Tuned Single Value LLMs in Moral Reasoning Decision-Making',
+    author: 'Max Huber, Jeffy Yu',
+    link: ['https://arxiv.org/abs/2404.02934'],
+    linkText: ['[arxiv]']
   },
   {
     type: "project",
