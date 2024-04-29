@@ -4,7 +4,7 @@
   min-height: 100vh;
   width: 100%;
   max-width: 100%;
-  background-color: #708090;
+  background-image: linear-gradient(to top, #808080, #708090);
 }
 
 .logoText{
