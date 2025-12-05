@@ -9,17 +9,32 @@
 .imagesContainer{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    width: 60vw;
+    gap: clamp(10px, 2vw, 20px);
+    width: 90%;
+    max-width: 800px;
     height: 60%;
     box-sizing: border-box;
     padding: 10px;
 }
 
-.imagesContainer img {
-    height: 50%;
-    width: auto;
+.logoImage {
+    height: auto !important;
+    width: auto !important;
+    max-width: clamp(30px, 5vw, 50px) !important;
+    max-height: clamp(30px, 5vw, 50px) !important;
+    object-fit: contain !important;
+    filter: drop-shadow(0px 0px 12px #B2FFFF) opacity(95%);
+}
+
+.logoImageWide {
+    height: auto !important;
+    width: auto !important;
+    max-width: clamp(60px, 10vw, 120px) !important;
+    max-height: clamp(25px, 3.5vw, 40px) !important;
+    object-fit: contain !important;
     filter: drop-shadow(0px 0px 12px #B2FFFF) opacity(95%);
 }
 
@@ -45,11 +60,21 @@
 
 /* Mobile styling */
 @media (max-width: 768px) {
-    .imagesContainer img {
-        margin-left: 7.5px;
-        margin-right: 7.5px;
-        height: 40%;
+    .imagesContainer {
+        gap: clamp(8px, 3vw, 12px);
+        width: 95%;
     }
+
+    .logoImage {
+        max-width: clamp(25px, 8vw, 40px) !important;
+        max-height: clamp(25px, 8vw, 40px) !important;
+    }
+
+    .logoImageWide {
+        max-width: clamp(50px, 15vw, 90px) !important;
+        max-height: clamp(20px, 6vw, 35px) !important;
+    }
+
     .techUsed {
         font-size: .5rem;
         width: 80vw;
