@@ -5,6 +5,8 @@
   width: 100%;
   max-width: 100%;
   background: linear-gradient(to top, #6a82fb, #9bc5d3, white);
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .main {
@@ -17,6 +19,8 @@
   justify-content: center;
   box-sizing: border-box;
   height: auto;
+  overflow: hidden;
+  padding: 0 1rem;
 }
 
 .caption1{

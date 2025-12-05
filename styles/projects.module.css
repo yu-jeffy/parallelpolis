@@ -5,6 +5,8 @@
   width: 100%;
   max-width: 100%;
   background-image: linear-gradient(to top, #808080, #708090);
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .logoText{
