@@ -39,6 +39,9 @@
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 400;
   font-style: oblique;
+  word-break: break-all;
+  text-align: center;
+  padding: 0 1rem;
 }
 
 /* Mobile styling */
@@ -51,5 +54,10 @@
   .caption2 {
     font-size: 1rem;
     text-align: center;
+  }
+
+  .caption3 {
+    font-size: 0.65rem;
+    padding: 0 0.5rem;
   }
 }
