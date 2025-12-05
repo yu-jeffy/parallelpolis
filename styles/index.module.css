@@ -34,6 +34,13 @@
   font-style: oblique;
 }
 
+.caption3{
+  font-size: 1rem;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  font-style: oblique;
+}
+
 /* Mobile styling */
 @media (max-width: 768px) {
   .caption1 {

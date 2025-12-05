@@ -25,6 +25,8 @@ export default function Home() {
       <div className={styles.main}>
         <div className={styles.caption1}>Towards AGI and Beyond...</div>
         <div className={styles.caption2}>Parallel Polis - Research Collective</div>
+        <br />
+        <div className={styles.caption3}> ydDccyq66xKtfqn5bsRpfFXz4WeF4fh3bgQBx1npump </div>
       </div>
       <Footer></Footer>
     </div>

@@ -43,6 +43,12 @@ const Footer = () => {
                     height={50}
                     alt="eth logo"
                 />
+                <Image
+                    src="/solana.png"
+                    width={50}
+                    height={50}
+                    alt="solana logo"
+                />
             </div>
             <span className={styles.disclaimer}>All trademarks and logos are the property of their respective owners and their use here does not imply endorsement or affiliation.</span>
         </div>
