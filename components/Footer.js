@@ -8,18 +8,11 @@ const Footer = () => {
             <span className={styles.techUsed}>Our research is powered by:</span>
             <div className={styles.imagesContainer}>
                 <Image
-                    src="/openai.png"
+                    src="/anthropic.svg"
                     width={50}
                     height={50}
-                    alt="openai logo"
+                    alt="anthropic logo"
                     className={styles.logoImage}
-                />
-                <Image
-                    src="/metaai2.png"
-                    width={120}
-                    height={40}
-                    alt="meta ai logo"
-                    className={styles.logoImageWide}
                 />
                 <Image
                     src="/llamaIndex.png"
