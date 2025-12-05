@@ -4,6 +4,7 @@
     align-items: center;
     height: 20vh;
     width: 100vw;
+    padding-bottom: env(safe-area-inset-bottom, 20px);
 }
 
 .imagesContainer{
@@ -60,9 +61,17 @@
 
 /* Mobile styling */
 @media (max-width: 768px) {
+    .footerContainer {
+        height: auto;
+        min-height: 20vh;
+        padding-bottom: max(env(safe-area-inset-bottom, 20px), 40px);
+        padding-top: 20px;
+    }
+
     .imagesContainer {
         gap: clamp(8px, 3vw, 12px);
         width: 95%;
+        margin-bottom: 15px;
     }
 
     .logoImage {
@@ -83,6 +92,7 @@
     }
     .disclaimer {
       font-size: .3rem;
+      margin-bottom: 10px;
     }
 
   }
