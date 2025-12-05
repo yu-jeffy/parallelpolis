@@ -13,11 +13,6 @@ const NavBar = () => {
                     alt="logo"
                 />
             </div>
-            <div className={styles.navItems}>
-                <Link href="/projects">
-                    <span className={styles.navItem}>Projects</span>
-                </Link>
-            </div>
         </nav>
     );
 };
